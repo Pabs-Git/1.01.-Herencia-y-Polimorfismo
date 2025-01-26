@@ -27,3 +27,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar archivos de configuración de IntelliJ IDEA
+.idea/
+*.iml
+
+# Ignorar otros archivos o carpetas no deseados
+.gitignore
+
+# Ignorar la carpeta out (archivos compilados de Java)
+out/
