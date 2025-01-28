@@ -1,4 +1,4 @@
-package Ejercicio_1;
+package Ejercicio_1.Classes;
 
 public class Phone {
 

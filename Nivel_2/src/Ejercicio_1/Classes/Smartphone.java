@@ -1,4 +1,7 @@
-package Ejercicio_1;
+package Ejercicio_1.Classes;
+
+import Ejercicio_1.Interfaces.Camera;
+import Ejercicio_1.Interfaces.Clock;
 
 public class Smartphone extends Phone implements Camera, Clock {
 
