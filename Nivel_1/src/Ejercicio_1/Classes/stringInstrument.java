@@ -1,8 +1,8 @@
-package Ejercicio_1;
+package Ejercicio_1.Classes;
 
-public class Guitar extends Instrument {
+public class stringInstrument extends Instrument {
 
-    public Guitar(String name, double price) {
+    public stringInstrument(String name, double price) {
 
         super(name, price);
     }

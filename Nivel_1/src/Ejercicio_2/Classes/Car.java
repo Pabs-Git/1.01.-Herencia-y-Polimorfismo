@@ -1,4 +1,4 @@
-package Ejercicio_2;
+package Ejercicio_2.Classes;
 
 public class Car {
 
@@ -11,20 +11,9 @@ public class Car {
         this.power = power;
     }
 
-    // Constructor que recibe tanto modelo como potencia en caso de que se quisiera cambiar "modelo"
-    public Car(String model, int power) {
-        this.model = model;    // Aquí puedes cambiar el modelo de manera estática
-        this.power = power;
-    }
-
     public static String getBrand() {
 
         return brand;
-    }
-
-    public static String getModel() {
-
-        return model;
     }
 
     public int getPower() {
