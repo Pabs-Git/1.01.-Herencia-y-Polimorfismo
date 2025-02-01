@@ -1,6 +1,0 @@
-# Ignorar todo por defecto
-/*
-
-# No ignorar la carpeta src y su contenido
-!src/
-!src/**
