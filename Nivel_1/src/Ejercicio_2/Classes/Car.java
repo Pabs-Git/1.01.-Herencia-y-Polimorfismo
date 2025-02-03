@@ -7,18 +7,19 @@ public class Car {
     private final int power;
 
     public Car(int power) {
-
         this.power = power;
     }
 
     public static String getBrand() {
-
         return brand;
     }
 
     public int getPower() {
-
         return power;
+    }
+
+    public static String getModel(){
+        return model;
     }
 
     public static void curb() {
