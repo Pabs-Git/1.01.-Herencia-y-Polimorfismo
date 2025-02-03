@@ -23,12 +23,10 @@ public class Car {
     }
 
     public static void curb() {
-
         System.out.println("The car is curbing...");
     }
 
     public void accelerate() {
-
         System.out.println("The car is accelerating...");
     }
 }

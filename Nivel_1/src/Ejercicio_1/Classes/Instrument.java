@@ -6,12 +6,10 @@ public abstract class Instrument {
     private double price;
 
     static {
-
         System.out.println("Loading class Instrument...");
     }
 
     public Instrument(String name, double price) {
-
         this.name = name;
         this.price = price;
     }
